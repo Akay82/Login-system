@@ -1,0 +1,227 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    background: #8a46c5;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.login-container {
+    position: absolute;
+    width: 70%;
+    height: 85vh;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-left: 17%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.login-right-side {
+    position: absolute;
+    width: 30%;
+    height: 70vh;
+    margin-left: 60%;
+    margin-top: 0%;
+}
+
+.login-form {
+    position: relative;
+    margin-top: 7%;
+}
+
+.login-email {
+    position: relative;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 75%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px #e6e6e6;
+    text-align: left;
+    padding-left: 25%;
+}
+
+.login-password {
+    position: relative;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 75%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding-left: 25%;
+    text-align: left;
+}
+
+.login-button {
+    width: 100%;
+    border-radius: 25px;
+    height: 50px;
+    background: #e6e6e6;
+    margin-top: 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-text {
+    position: relative;
+    margin-top: 45%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.msg-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -14%;
+    margin-left: 10%;
+}
+
+.lock-icon {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    margin-top: -13%;
+    margin-left: 10%;
+    opacity: 0.7;
+}
+
+.create-account {
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.create-account:hover {
+    color: #4158d0;
+}
+
+.login-button:hover {
+    background-image: linear-gradient(#c850c0, #4158d0);
+}
+
+.login-left-img img {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+    opacity: 0.95;
+    height: 80%;
+}
+
+.login-left-img img:hover {
+    opacity: 1;
+    filter: drop-shadow(5px 5px 10px #555);
+}
+
+@media screen and (max-width: 700px) {
+    .login-left-img img {
+        margin-top: 20%;
+        margin-left: 10%;
+        width: 30%;
+        height: 50%;
+    }
+    .login-right-side {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 250px;
+    }
+    .login-email {
+        width: 130px;
+        padding-left: 35%;
+    }
+    .login-password {
+        padding-left: 35%;
+        width: 130px;
+    }
+    .login-button {
+        width: 190px;
+    }
+    .msg-icon {
+        margin-top: -38px;
+    }
+    .lock-icon {
+        margin-top: -38px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .login-left-img img {
+        margin-top: 20%;
+        margin-left: 10%;
+        width: 30%;
+        height: 50%;
+    }
+    .login-right-side {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 250px;
+    }
+    .login-email {
+        width: 130px;
+        padding-left: 35%;
+    }
+    .login-password {
+        padding-left: 35%;
+        width: 130px;
+    }
+    .login-button {
+        width: 190px;
+    }
+    .msg-icon {
+        margin-top: -38px;
+    }
+    .lock-icon {
+        margin-top: -38px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login-left-img img {
+        margin-top: 20%;
+        margin-left: 10%;
+        width: 30%;
+        height: 50%;
+    }
+    .login-right-side {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 190px;
+    }
+    .login-email {
+        width: 130px;
+        padding-left: 35%;
+    }
+    .login-password {
+        padding-left: 35%;
+        width: 130px;
+    }
+    .login-button {
+        width: 190px;
+    }
+    .msg-icon {
+        margin-top: -38px;
+    }
+    .lock-icon {
+        margin-top: -38px;
+    }
+}

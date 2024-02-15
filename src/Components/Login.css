@@ -224,4 +224,7 @@ body {
     .lock-icon {
         margin-top: -38px;
     }
+    .login-container {
+        margin-left: -17%;
+    }
 }
